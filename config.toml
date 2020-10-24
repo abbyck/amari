@@ -6,8 +6,8 @@ theme = "hello-friend-ng"
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
-paginate  = 10
-rssLimit  = 10  # Maximum number of items in the RSS feed.
+paginate  = 1
+rssLimit  = 0  # Maximum number of items in the RSS feed.
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License." # This message is only used by the RSS template.
 
 # googleAnalytics = ""
@@ -28,7 +28,7 @@ enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
-disableRSS     = false
+disableRSS     = true
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
@@ -44,7 +44,7 @@ disableHugoGeneratorInject = false
 
 [taxonomies]
   tag      = "tags"
-  category = "categories"
+  category = "categories" 
   series   = "series"
 
 [params]
@@ -55,11 +55,11 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Nice theme for homepages and blogs"
+  description = "Abhinav Krishna C K"
   keywords = ""
   images = [""]
 
-  homeSubtitle = "Code, Internet, Radio and Freedom"
+  homeSubtitle = "Code, Internet, Wireless and Freedom"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
@@ -75,7 +75,7 @@ disableHugoGeneratorInject = false
   # generate the buttons here: https://sharingbuttons.io
   # and add them into your own `layouts/partials/sharing-buttons.html`
   #
-  enableSharingButtons = true
+  enableSharingButtons = false
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -96,7 +96,7 @@ disableHugoGeneratorInject = false
   # If you want, you can easily override the default footer with your own content. 
   #
   footerLeft = "Powered by <a href=\"http://gohugo.io\">Hugo</a>"
-  footerRight = "&#10084;"
+  #footerRight = ""
 
   # Colors for favicons
   #
